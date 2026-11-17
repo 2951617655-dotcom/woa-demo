@@ -20,16 +20,16 @@
   .en { display:block; font-size:11px; color:#9AA3A1; letter-spacing:1.5px; margin-top:2px; }
   .tag { display:inline-block; margin-top:14px; border:1px solid #3A4442; color:#C8CFCC;
     font-size:12px; padding:4px 9px; border-radius:2px; }
-  main { padding:16px 14px 40px; max-width:1040px; margin:0 auto; }
+  main { padding:16px 14px 40px; max-width:1040px; margin:0 auto; width:100%; overflow:hidden; }
   h2 { font-size:15px; margin:22px 0 8px; padding-left:9px; border-left:4px solid var(--ink); }
-  .sub { color:var(--gray); font-size:12px; margin:0 0 12px 13px; line-height:1.7; overflow-wrap:anywhere; }
+  .sub { color:var(--gray); font-size:12px; margin:0 0 12px 13px; line-height:1.7; overflow-wrap:anywhere; word-break:break-word; }
   .kpis { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
   .kpi { background:#fff; border:1px solid var(--line); padding:12px 10px; }
   .kpi b { display:block; font-size:17px; letter-spacing:-.4px; }
   .kpi i { display:block; font-style:normal; font-size:11px; color:var(--gray); margin-top:4px; }
   .kpi.red b { color:var(--red); }
-  figure { margin:0; background:#fff; border:1px solid var(--line); }
-  figure img { display:block; width:100%; height:auto; background:#EDEEE8; }
+  figure { margin:0; background:#fff; border:1px solid var(--line); max-width:100%; overflow:hidden; }
+  figure img { display:block; max-width:100%; width:auto; height:auto; background:#EDEEE8; }
   figcaption { font-size:11px; color:var(--gray); padding:8px 10px; border-top:1px solid var(--line); }
   .phone { max-width:300px; margin:0 auto; }
   ul { margin:0; padding-left:18px; font-size:13px; line-height:1.9; }
